@@ -7,6 +7,21 @@ langchain_openai
 python-dotenv
 PyPDF2
 
+#API Requirements
+fastAPI
+langserve
+uvicorn
+sse_starlette
+
+# RAG Requirements
+bs4
+pypdf
+chromadb
+faiss-cpu
+
+
 -e .
 
-# Local package dependencies
+# Compatible Versions
+
+# pip install fastapi==0.111.0 langserve==0.3.1 langchain==0.3.25 langchain-core==0.3.65 pydantic==2.7.4
